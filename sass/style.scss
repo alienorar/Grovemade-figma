@@ -1,5 +1,8 @@
   * {
-      border: none !important
+      border: none!important;
+      list-style: none;
+      text-decoration: none !important;
+      box-sizing: border-box;
   }
   .container{
     .hardWay-img{
@@ -12,4 +15,29 @@ height: 500px;
 
   .des-inspo{
     height: 50vh;
+  }
+  .footer{
+    a{
+        font-size: 18px;
+    }
+   .footer-left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    .footer-info{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgba(9, 9, 9, 0.641) !important;
+    }
+   }
+   .footer-navbar{
+    padding: 20px;
+   ul{
+display: flex;
+gap: 10px;
+justify-content: flex-end;
+padding: 30px;
+   } 
+   }
   }
