@@ -8,16 +8,8 @@
 </head>
 <body>
     <style>
-        .hero{
-            background-image: url(./images/hero-bg.png);
-            background-size: cover;
-            height: 80vh;
-            background-repeat: no-repeat;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
+        *{
+            border: none!important
         }
     </style>
 <!-- Navbar -->
@@ -94,7 +86,7 @@
 
 
 <section class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center mt-3">
+    <div class="row row-cols-1 row-cols-md-2 g-4 d-flex justify-content-center mt-3">
         <div class="col">
             <div class="card h-100">
                 <img src="./images/pad-img.png" class="card-img-top" alt="pad-img">
@@ -105,7 +97,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 ">
                 <img src="./images/laptop-nd.png" class="card-img-top" alt="laptop-nd">
                 <div class="card-body  text-center">
                     <h2 class="card-title">Desk Pads</h2>
@@ -119,7 +111,7 @@
 
 <section>
     <div class="card text-center">
-        <div class="card-body">
+        <div class="card-body text-secondary">
             <h2 class="card-title my-3">Featured Products</h2>
             <p class="card-text">See What’s Trending Right Now</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -127,52 +119,104 @@
     </div>
 </section>
 
-<section>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+<section class="container mt-3">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
             <div class="card h-100">
                 <img src="./images/wainut-st.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
+                <div class="card-body text-secondary">
+                    <h5 class="card-title">Walnut MagSafe Stand</h5>
+                    <p class="card-text">$120</p>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
                 <img src="./images/wainut-nd.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a short card.</p>
+                <div class="card-body text-secondary">
+                    <h5 class="card-title">Walnut Laptop Riser</h5>
+                    <p class="card-text">$150</p>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
                 <img src="./images/wainut-rd.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                        content.</p>
+                <div class="card-body text-secondary">
+                    <h5 class="card-title">Walnut iPad Stand</h5>
+                    <p class="card-text">$80</p>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
                 <img src="./images/wainut-fourth.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
+                <div class="card-body text-secondary">
+                    <h5 class="card-title">Walnut Monitor Stand</h5>
+                    <p class="card-text">$150</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<section>
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/inspo-img.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Home Office Inspiration</h1>
+                <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+                <button type="button" class="btn btn-secondary">About More</button>
+                
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/hero-bg.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+        <h1>Home Office Inspiration</h1>
+        <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+        <button type="button" class="btn btn-secondary">About More</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./images/inspo-img.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Home Office Inspiration</h1>
+                <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+                <button type="button" class="btn btn-secondary">About More</button>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</section>
 
-
+<section>
+    <div class="card text-center">
+        <div class="card-body">
+            <h2 class="card-title my-3">Made The Hard Way</h2>
+            <p class="card-text text-secondary">Our signature craftsmanship has been honed over a decade of manufacturing innovation here in Portland, Oregon. We
+            combine the skills of our small in-house team with the collective strength of collaborators throughout the US to deliver
+            quality products worth investing in.</p>
+            
+        </div>
+    </div>
+</section>
 
     
 </main>
